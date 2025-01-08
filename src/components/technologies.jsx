@@ -2,10 +2,6 @@ import { RiReactjsLine } from "react-icons/ri"
 import { SiHtml5, SiCss3, SiJavascript, SiTailwindcss } from "react-icons/si";
 import { FiTerminal } from "react-icons/fi";
 
-
-
-
-
 const Technologies = () => {
   return (
     <div className="pb-24">
@@ -29,7 +25,6 @@ const Technologies = () => {
           <div className="p-4">
             <FiTerminal className="text-7xl text-green-500" />
           </div>
-
       </div>
     </div>
   )
