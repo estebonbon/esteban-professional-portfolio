@@ -2,7 +2,6 @@ import Hero from "./components/hero.jsx";
 import Navbar from "./components/navbar.jsx";
 import Technologies from "./components/technologies.jsx";
 import Projects from "./components/projects.jsx";
-import Experiences from "./components/experiences.jsx";
 import Contact from "./components/contact.jsx";
 
 
@@ -20,7 +19,6 @@ const App = () => {
           <Hero />
           <Technologies />
           <Projects />
-          <Experiences />
           <Contact />
       </div>
     </div> /* this line ends the main div  */
