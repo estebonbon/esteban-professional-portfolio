@@ -14,7 +14,7 @@ const App = () => {
         </div>
       </div> {/* this line ends th fixed inset */}
 
-      <div className="container mx-auto px-8">
+      <div className="container mx-auto px-8 pb-12">
           <Navbar />
           <Hero />
           <Technologies />

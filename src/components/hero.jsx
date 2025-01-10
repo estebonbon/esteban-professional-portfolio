@@ -1,4 +1,4 @@
-import profilepic from "../assets/raviKumarProfile.webp"
+import profilepic from "../assets/final-portfolio-picture.webp"
 import { HERO_CONTENT } from "../constants"
 import {motion} from "framer-motion";
 
@@ -46,15 +46,15 @@ const Hero = () => {
                   className="pb-2 text-4xl tracking-tighter lg:text-8xl"
                   variants={childVariants}>Esteban Sarmiento</motion.h1>
                   <motion.span 
-                  className="bg-gradient-to-t from-stone-200 to-stone-900 bg-clip-text text-3xl tracking-tight text-transparent"
+                  className="bg-gradient-to-t bg-[rgb(136,252,226)] bg-clip-text text-3xl tracking-tight text-transparent"
                   variants={childVariants}>Frontend Developer</motion.span>
                   <motion.p 
                   className="my-2 max-w-lg /* sets a limimi */ py-6 text-xl leading-relaxed tracking-tighter /* leading is for line spacing */"
                   variants={childVariants}>
                     {HERO_CONTENT}
                   </motion.p>
-                  <motion.a href="/" target="_blank" rel="noopener noreferrer" download className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
-                  variants={childVariants}> Download Resume </motion.a>
+                  <motion.a href="https://estebonbon.github.io/repo-gallery/" target="_blank" rel="noopener noreferrer"  className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
+                  variants={childVariants}> Repo-gallery </motion.a>
                 </motion.div>
             </div>
         </div> {/* Inside the flex container paramaters */}

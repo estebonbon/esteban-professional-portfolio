@@ -36,12 +36,18 @@ const Projects = () => {
                       {tech}
                     </span>
                   ))}
+                  <a 
+                    href={project.livePage} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="mr-2 rounded bg-cyan-600 p-2 text-sm font-medium text-white hover:bg-cyan-700">
+                    View Live Project
+                  </a>
                 </motion.div>
             </div>
           ))} {/* ends the projects map method */}
       </div>
-    </div>
-        
+    </div>        
   )
 }
 
