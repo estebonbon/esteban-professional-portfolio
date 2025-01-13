@@ -1,6 +1,6 @@
 import Hero from "./components/hero.jsx";
 import Technologies from "./components/technologies.jsx";
-import Projects from "./components/project.jsx";
+import Projects from "./components/projects.jsx";
 import Contact from "./components/contact.jsx";
 
 

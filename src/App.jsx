@@ -1,37 +1,29 @@
-import Hero from "./components/hero.jsx";
-import Navbar from "./components/navbar.jsx";
-import Technologies from "./components/technologies.jsx";
-import Projects from "./components/project.jsx";
-import Contact from "./components/contact.jsx";
-
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/navbar";
+import Home from "./Home"; // Home component
+import AboutMe from "./AboutMe"; // About Me page component
 
 const App = () => {
   return (
-    <div className="overflow-x-hidden text-stone-300 antialiased">
-      <div className="fixed inset-0 -z-10">
-        <div className="relative h-full w-full bg-black">
-          <div className="absolute left-0 right-0 top-[-10%] h-[1000px] w-[1000px] rounded-full bg-[radial-gradient(circle_400px_at_50%_300px,#fbfbfb36,#000)]"></div>
-        </div>
-      </div>
-      <div className="mx-auto px-8 pb-12">
-        <Navbar />
-        <section id="hero">
-          <Hero />
-        </section>
-        <section id="technologies">
-          <Technologies />
-        </section>
-        <section id="projects">
-          <Projects />
-        </section>
-        <section id="contact">
-          <Contact />
-        </section>
-      </div>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        {/* Default Route */}
+        <Route path="/" element={<Home />} />
+
+        {/* About Me Route */}
+        <Route path="/about" element={<AboutMe />} />
+
+        {/* Catch-All Route */}
+        <Route
+          path="*"
+          element={<div className="text-center mt-20">404 - Page Not Found</div>}
+        />
+      </Routes>
+    </Router>
   );
 };
 
-
 export default App;
+
+
