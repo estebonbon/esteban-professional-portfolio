@@ -1,30 +1,18 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa"
-import logo from "../assets/esteban-codedance.png"
+import logo from "../assets/esteban-logo.png";
 
-const navbar = () => {
+const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between py-6">
+    <nav className="flex items-center py-6 lg:justify-start justify-center">
+      {/* Logo Section */}
       <div className="flex shrink-0 items-center">
         <a href="/" aria-label="Home">
-          <img src={logo} className="mx-2" width={150} height={63} alt="Logo"/>
+          <img src={logo} className="" width={150} height={63} alt="Logo" />
         </a>
       </div>
-      <div className="m-8 flex item-center justify-center gap-4 text-2xl">
-        <a href="https://www.linkedin.com/in/esteban-sarmiento-565470341/" 
-          target="_blank" 
-          rel="nooopener noreferrer"
-          aria-label="Linkedin Profile">
-            <FaLinkedin /> {/* comes from the React Icons library. It provides pre-made icon components for popular brands like LinkedIn, Facebook, etc. */}
-          </a>
-        <a href="https://github.com/estebonbon" 
-          target="_blank" 
-          rel="nooopener noreferrer"
-          aria-label="Github">
-            <FaGithub /> 
-          </a>
-      </div>
     </nav>
-  )
-}
+  );
+};
 
-export default navbar
+export default Navbar;
+
+

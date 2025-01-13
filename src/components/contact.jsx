@@ -1,24 +1,46 @@
 import {CONTACT} from "../constants"
+import { FaGithub, FaLinkedin } from "react-icons/fa"
+
 const Contact = () => {
   return (
-    <div className="border-t border-stone-900 pb-200">
+    <div className="border-t border-stone-900 pb-20">
       <h2 className="my-10 text-center text-4xl">Get in Touch</h2>
-      <div className="text-center tracking-tighter">
-        <p className="my-4">
-          {CONTACT.address}
-        </p>
-        <p className="my-4">
-          {CONTACT.located}
-        </p>
-        <a href="#" className="border-b">
-          {CONTACT.email}
-        </a>
+      <div className="lg:flex lg:items-center lg:justify-between lg:mx-auto lg:max-w-4xl lg:text-left text-center">
+        {/* Left Content */}
+        <div>
+          <p className="my-4 lg:my-2"> <span className="ml-2"> &#128205;</span> Location: {CONTACT.located}</p>
+          <p className="my-4 lg:my-2">
+            <a href="mailto:estebancodecity@gmail.com" 
+              className="border-b border-transparent hover:border-stone-400">
+              <span className="mr-2" role="img" aria-label="Email">&#x1F4E7;</span> Mail: {CONTACT.email}
+            </a>
+          </p>        
+        </div> {/* Close Left Content */}        
+        {/* Right Content */}
+        <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+          <a
+            href="https://www.linkedin.com/in/esteban-sarmiento/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Linkedin Profile">
+             <FaLinkedin className="text-5xl mr-10"/> 
+          </a>
+          <a
+            href="https://github.com/estebonbon"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Github">
+            <FaGithub className="text-5xl"/>
+          </a>
+        </div>
       </div>
     </div>
-  )
-}
+  );
+};
+
 
 export default Contact
+
 /* import ReCAPTCHA from "react-google-recaptcha";
 
 const Contact= () => {

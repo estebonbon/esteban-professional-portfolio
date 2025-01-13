@@ -3,9 +3,14 @@ import project2 from "../assets/projects/youtube.webp";
 import project3 from "../assets/projects/new-notes.webp";
 import project4 from "../assets/projects/unplugged-retreat.webp";
 
-export const HERO_CONTENT = `Hola soy Esteban, I am a self-driven front-end developer who’s spent countless hours mastering the fine art of Google translate, Alphabet search (and, of course, web development). I’m passionate about continuous learning and building projects that make an impact. Now, I’m eager to join a dynamic team where I can contribute, grow, and help tackle the exciting chaos of one of the world’s fastest-evolving fields.`;
+export const HERO_CONTENT = `Hola soy Esteban, I am a self-driven front-end developer who’s spent countless hours mastering the fine art of Google Translate, Alphabet Search (and, of course, web development).`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = [
+  `Hello! I’m Esteban, a front-end developer based in Ontario, Canada. My coding journey began in high school with VEX Robotics and Arduino projects, sparking my curiosity for problem-solving. Inspired by a coding BootCamp and creators like Mark Rober, I discovered my passion for blending creativity and technology to build impactful projects.`,
+  `When I’m not coding, you’ll find me with my Les Paul guitar and Blues Junior Deluxe amp, crafting "bedroom concerts" or experimenting with new tunes. I also value spending time with family and friends, as these relationships fuel my creativity and motivation.`,
+  `Before tech, I worked carpentry, landscaping, and hospitality roles that shaped my resilience, teamwork, and presentation skills. I’m ready to channel these strengths into a tech environment as a creative and solutions oriented professional.`,
+];
+
 
 export const EXPERIENCES = [
   {
@@ -43,7 +48,7 @@ export const PROJECTS = [
     title: "Amazon E-Commerce Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and delivery time.",
+      "A fully functional multipage e-commerce website built with React, featuring dynamic rendering for seamless product listing, shopping cart management, and delivery time tracking. The app leverages APIs to fetch and display real-time product data, ensuring a responsive and interactive user experience.",
     technologies: ["HTML", "CSS", "React", "Javascript"],
     livePage: "https://estebonbon.github.io/mock-amazon/index.html",
   },
@@ -51,15 +56,15 @@ export const PROJECTS = [
     title: "Youtube clone",
     image: project2,
     description:
-      "This project has a responsive design, with functioning anchor tags",
+      "This project features a responsive design built with Flexbox and functioning anchor tags, mimicking the navigation experience of a live website.",
     technologies: ["HTML", "CSS", "Javascript"],
     livePage: "https://estebonbon.github.io/youtube-clone-project/",
   },
   {
-    title: "New Note",
+    title: "New Notes",
     image: project3,
     description:
-      "This app helps users take notes. It also uses localstorage to save the users responses.",
+      "A user-friendly note-taking app designed to save and store notes locally. By leveraging local storage, it ensures users notes remain accessible even after closing the browser.",
     technologies: ["HTML", "CSS", "React", "Javascript"],
     livePage: "https://estebonbon.github.io/react-sticky-notes-project/",
   },
@@ -67,7 +72,7 @@ export const PROJECTS = [
     title: "Unplugged Retreat",
     image: project4,
     description:
-      "This is a captivating design web design for a work retreat, the whole app is responsive. ",
+    "A visually captivating and fully responsive website designed for a work retreat. Built with Flexbox, this project ensures seamless adaptability across all screen sizes.",
     technologies: ["HTML", "CSS",],
     livePage: "https://estebonbon.github.io/Unplugged-Retreat-Website/",
   },
@@ -75,5 +80,9 @@ export const PROJECTS = [
 
 export const CONTACT = {
   located: "Ontario, Canada",
-  email: "esteban.codedance@gmail.com",
+  email: "estebancodecity@gmail.com",
 };
+
+const oldHero = 
+  "Hola soy Esteban, I am a self-driven front-end developer who’s spent countless hours mastering the fine art of Google Translate, Alphabet Search (and, of course, web development). I’m passionate about continuous learning and building projects that make an impact. My goal is to contribute, grow, and work on innovative solutions in one of the world’s fastest-evolving fields."
+
