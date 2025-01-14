@@ -1,7 +1,9 @@
 import { PROJECTS } from "../constants";
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 
 const Projects = () => {
+  const shouldReduceMotion = useReducedMotion();
+
   return (
     <div className="pb-4">
       <motion.h2 
@@ -19,8 +21,8 @@ const Projects = () => {
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center lg:items-start lg:gap-8">
             {/* Project Image */}
             <motion.div 
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: -100 }}
+              whileInView={shouldReduceMotion ? {} : { opacity: 1, x: 0 }}
+              initial={shouldReduceMotion ? {} : { opacity: 0, x: -100 }}              
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4 mb-6 lg:mb-0 flex justify-center md:justify-start"
             >
@@ -28,15 +30,15 @@ const Projects = () => {
                 src={project.image} 
                 width={250}
                 height={250}
-                alt={project.title}
+                alt={project.titleAria}
                 className="rounded" 
               />
             </motion.div> {/* end the image div */}
             
             {/* Project Details */}
             <motion.div 
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 100 }}
+              whileInView={shouldReduceMotion ? {} : { opacity: 1, x: 0 }}
+              initial={shouldReduceMotion ? {} : { opacity: 0, x: 100 }}              
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
@@ -60,7 +62,7 @@ const Projects = () => {
                   href={project.livePage}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded bg-cyan-600 p-2 text-sm font-medium text-white hover:bg-cyan-700 flex-shrink-0"
+                  className="rounded bg-cyan-800 p-2 text-sm font-medium text-white hover:bg-cyan-700 flex-shrink-0"
                 >
                   View Live Project
                 </a>

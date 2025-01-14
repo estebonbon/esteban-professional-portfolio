@@ -30,9 +30,10 @@ const AboutMe = () => {
           <a
             href="./public/Esteban-Sarmiento-Resume.pdf"
             download
-            className="inline-block px-6 py-3 bg-cyan-600 text-white font-medium rounded-lg shadow-lg hover:bg-cyan-700"
+            aria-label="Download the Resume as a PDF. Opens in a new window"
+            className="inline-block px-6 py-3 bg-cyan-800 text-white font-medium rounded-lg shadow-lg hover:bg-cyan-700"
           >
-            Download Resume
+            Download Resume (PDF)
           </a>
         </div>
       </div>

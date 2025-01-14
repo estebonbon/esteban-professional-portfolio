@@ -6,11 +6,43 @@ import project4 from "../assets/projects/unplugged-retreat.webp";
 export const HERO_CONTENT = `Hola soy Esteban, I am a self-driven Front End Developer who’s spent countless hours mastering the fine art of Google Translate, Alphabet Search (and, of course, web development).`;
 
 export const ABOUT_TEXT = [
-  `Hello! I’m Esteban, a Front End Developer based in Ontario, Canada. My coding journey began in high school with VEX Robotics and Arduino projects, sparking my curiosity for problem-solving. Inspired by a coding BootCamp and creators like Mark Rober, I discovered my passion for blending creativity and technology to build impactful projects.`,
+  `My name is Esteban, I am a Front End Developer based in Ontario, Canada. My coding journey began in high school with VEX Robotics and Arduino projects, sparking my curiosity for problem-solving. Inspired by a coding BootCamp and creators like Mark Rober, I discovered my passion for blending creativity and technology to build impactful projects.`,
   `When I’m not coding, you’ll find me with my Les Paul guitar and Blues Junior Deluxe amp, crafting "bedroom concerts" or experimenting with new tunes. I also value spending time with family and friends, as these relationships fuel my creativity and motivation.`,
   `Before tech, I worked carpentry, landscaping, and hospitality roles that shaped my resilience, teamwork, and presentation skills. I’m ready to channel these strengths into a tech environment as a creative and solutions oriented professional.`,
 ];
 
+export const SKILLS = [
+  {
+    Skill:"REACT"
+  },
+  {
+    Skill:"JAVASCRIPT (ES6+)"
+  },
+  {
+    Skill:"APIS"
+  },
+  {
+    Skill:"HTML5"
+  },
+  {
+    Skill:"CSS3"
+  },
+  {
+    Skill:"RESPONSIVE DESIGN"
+  },
+  {
+    Skill:"VERSION CONTROL"
+  },
+  {
+    Skill:"DEVTOOLS"
+  },
+  {
+    Skill:"DOM MANIPULATION"
+  },
+  {
+    Skill:"TESTING FRAMEWORKS"
+  }
+]
 
 export const EXPERIENCES = [
   {
@@ -46,33 +78,37 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Amazon E-Commerce Website",
+    titleAria: "Amazon mockup website",
     image: project1,
     description:
-      "A fully functional multipage e-commerce website built with React, featuring dynamic rendering for seamless product listing, shopping cart management, and delivery time tracking. The app leverages APIs to fetch and display real-time product data, ensuring a responsive and interactive user experience.",
+      "A fully functional 4-page e-commerce website built with React, featuring dynamic rendering for seamless product listing, shopping cart management, and delivery time tracking. The app leverages APIs to fetch and display real-time product data, offering a responsive and interactive user experience.",
     technologies: ["HTML", "CSS", "React", "JavaScript"],
     livePage: "https://estebonbon.github.io/mock-amazon/index.html",
   },
   {
-    title: "Youtube clone",
-    image: project2,
-    description:
-      "This project features a responsive design built with Flexbox and functioning anchor tags, mimicking the navigation experience of a live website.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    livePage: "https://estebonbon.github.io/youtube-clone-project/",
-  },
-  {
     title: "New Notes",
+    titleAria: "An App that takes notes",
     image: project3,
     description:
-      "A user-friendly note-taking app designed to save and store notes locally. By leveraging local storage, it ensures users notes remain accessible even after closing the browser.",
+      "New Notes is a user friendly note taking app that lets users add, edit, search, and delete notes. Built with reusable components, it ensures smooth functionality and rendering. Local storage keeps notes accessible after closing the browser, offering an efficient way to manage them.",
     technologies: ["HTML", "CSS", "React", "JavaScript"],
     livePage: "https://estebonbon.github.io/react-sticky-notes-project/",
   },
   {
+    title: "YouTube clone",
+    titleAria: "Static YouTube page",
+    image: project2,
+    description:
+      "This static website features a responsive Flexbox layout, adaptable across screen sizes. It includes a non-functional search bar for aesthetics and anchor tags linking embedded video content, offering an interactive experience. The project highlights modern web design with clean code.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    livePage: "https://estebonbon.github.io/youtube-clone-project/",
+  },
+  {
     title: "Unplugged Retreat",
+    titleAria: "Responsive Retreat Website called unplugged",
     image: project4,
     description:
-    "A visually captivating and fully responsive website designed for a work retreat. Built with Flexbox, this project ensures seamless adaptability across all screen sizes.",
+    "A visually captivating and fully responsive 3-page website designed for a work retreat. Built with Flexbox and media queries, it seamlessly adapts to mobile, tablet, and desktop screens. This project features a simple and modern design users will love.",
     technologies: ["HTML", "CSS",],
     livePage: "https://estebonbon.github.io/Unplugged-Retreat-Website/",
   },

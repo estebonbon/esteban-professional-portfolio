@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="lg:flex lg:items-center lg:justify-between lg:mx-auto lg:max-w-4xl lg:text-left text-center">
         {/* Left Content */}
         <div>
-          <p className="my-4 lg:my-2"> <span className="ml-2"> &#128205;</span> Location: {CONTACT.located}</p>
+          <p className="my-4 lg:my-2" aria-label="location"> <span className="ml-2"> &#128205;</span> Location: {CONTACT.located}</p>
           <p className="my-4 lg:my-2">
             <a href="mailto:estebancodecity@gmail.com" 
               className="border-b border-transparent hover:border-stone-400">

@@ -2,7 +2,7 @@ import Hero from "./components/hero.jsx";
 import Technologies from "./components/technologies.jsx";
 import Projects from "./components/projects.jsx";
 import Contact from "./components/contact.jsx";
-
+import Skillset from "./components/skillset.jsx";
 
 
 const Home = () => {
@@ -19,6 +19,9 @@ const Home = () => {
         </section>
         <section id="technologies">
           <Technologies />
+        </section>
+        <section id="skillset">
+          <Skillset />
         </section>
         <section id="projects">
           <Projects />
