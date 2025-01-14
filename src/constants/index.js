@@ -3,10 +3,10 @@ import project2 from "../assets/projects/youtube.webp";
 import project3 from "../assets/projects/new-notes.webp";
 import project4 from "../assets/projects/unplugged-retreat.webp";
 
-export const HERO_CONTENT = `Hola soy Esteban, I am a self-driven front-end developer who’s spent countless hours mastering the fine art of Google Translate, Alphabet Search (and, of course, web development).`;
+export const HERO_CONTENT = `Hola soy Esteban, I am a self-driven Front End Developer who’s spent countless hours mastering the fine art of Google Translate, Alphabet Search (and, of course, web development).`;
 
 export const ABOUT_TEXT = [
-  `Hello! I’m Esteban, a front-end developer based in Ontario, Canada. My coding journey began in high school with VEX Robotics and Arduino projects, sparking my curiosity for problem-solving. Inspired by a coding BootCamp and creators like Mark Rober, I discovered my passion for blending creativity and technology to build impactful projects.`,
+  `Hello! I’m Esteban, a Front End Developer based in Ontario, Canada. My coding journey began in high school with VEX Robotics and Arduino projects, sparking my curiosity for problem-solving. Inspired by a coding BootCamp and creators like Mark Rober, I discovered my passion for blending creativity and technology to build impactful projects.`,
   `When I’m not coding, you’ll find me with my Les Paul guitar and Blues Junior Deluxe amp, crafting "bedroom concerts" or experimenting with new tunes. I also value spending time with family and friends, as these relationships fuel my creativity and motivation.`,
   `Before tech, I worked carpentry, landscaping, and hospitality roles that shaped my resilience, teamwork, and presentation skills. I’m ready to channel these strengths into a tech environment as a creative and solutions oriented professional.`,
 ];
@@ -22,7 +22,7 @@ export const EXPERIENCES = [
   },
   {
     year: "2022 - 2023",
-    role: "Frontend Developer",
+    role: "Front End Developer",
     company: "Adobe",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
@@ -49,7 +49,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional multipage e-commerce website built with React, featuring dynamic rendering for seamless product listing, shopping cart management, and delivery time tracking. The app leverages APIs to fetch and display real-time product data, ensuring a responsive and interactive user experience.",
-    technologies: ["HTML", "CSS", "React", "Javascript"],
+    technologies: ["HTML", "CSS", "React", "JavaScript"],
     livePage: "https://estebonbon.github.io/mock-amazon/index.html",
   },
   {
@@ -57,7 +57,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "This project features a responsive design built with Flexbox and functioning anchor tags, mimicking the navigation experience of a live website.",
-    technologies: ["HTML", "CSS", "Javascript"],
+    technologies: ["HTML", "CSS", "JavaScript"],
     livePage: "https://estebonbon.github.io/youtube-clone-project/",
   },
   {
@@ -65,7 +65,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A user-friendly note-taking app designed to save and store notes locally. By leveraging local storage, it ensures users notes remain accessible even after closing the browser.",
-    technologies: ["HTML", "CSS", "React", "Javascript"],
+    technologies: ["HTML", "CSS", "React", "JavaScript"],
     livePage: "https://estebonbon.github.io/react-sticky-notes-project/",
   },
   {

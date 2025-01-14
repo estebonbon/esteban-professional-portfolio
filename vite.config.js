@@ -7,6 +7,6 @@ export default defineConfig({
   server: {
     historyApiFallback: true, // Ensures routing works for SPAs
   },
-  /* base: '/esteban-professional-portfolio/', // Replace with your GitHub repository name */
+  base: '/', // Replace with your GitHub repository name esteban-professional-portfolio
 });
 
