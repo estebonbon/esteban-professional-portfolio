@@ -108,7 +108,7 @@ const Technologies = () => {
           className="p-4"
         >
           <FiTerminal className="text-7xl text-green-500 peer" aria-label="Terminal Icon" />
-          <span aria-hidden="true" className="absolute bottom-[-10px] right-[-1px] px-2 py-1 text-sm text-white rounded opacity-0 peer-hover:bg-stone-700 peer-hover:opacity-100 transition-opacity">
+          <span aria-hidden="true" className="absolute bottom-[-10px] right-[15px] px-2 py-1 text-sm text-white rounded opacity-0 peer-hover:bg-stone-700 peer-hover:opacity-100 transition-opacity">
             Terminal
           </span>
         </motion.div>

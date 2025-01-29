@@ -53,12 +53,12 @@ const Hero = () => {
                   variants={shouldReduceMotion ? {} : childVariants}
                   >Front End Developer</motion.span>
                   <motion.p 
-                  className="my-2 max-w-lg /* sets a limimi */ py-6 text-xl leading-relaxed tracking-tighter /* leading is for line spacing */"
+                  className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter /* leading is for line spacing */"
                   variants={shouldReduceMotion ? {} : childVariants}>
                     {HERO_CONTENT}
                   </motion.p>
                   <motion.a href="https://estebonbon.github.io/repo-gallery/" target="_blank" rel="noopener noreferrer"  aria-label="Link to Repo Gallery" className="bg-white rounded-full p-4 text-sm text-stone-900 mb-10 hover:bg-stone-300 font-bold"
-                  variants={shouldReduceMotion ? {} : childVariants}> View Repo Gallery </motion.a>
+                  variants={shouldReduceMotion ? {} : childVariants}> View Github Gallery </motion.a>
                 </motion.div>
             </div>
         </div> {/* Inside the flex container paramaters */}
