@@ -23,14 +23,14 @@ const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Linkedin Profile">
-             <FaLinkedin className="text-5xl mr-10"/> 
+             <FaLinkedin className="text-5xl mr-10 hover:text-[#c5a358ce]"/> 
           </a>
           <a
             href="https://github.com/estebonbon"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Github">
-            <FaGithub className="text-5xl"/>
+            <FaGithub className="text-5xl hover:text-[#c5a358ce]"/>
           </a>
         </div>
       </div>
